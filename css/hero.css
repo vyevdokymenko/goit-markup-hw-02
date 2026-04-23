@@ -12,13 +12,14 @@
 .hero .order {
     background-color: #4D5AE5;
     color: white;
-    letter-spacing: 4%;
     font-weight: 500;
     cursor: pointer;
     line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
-.hero .order:hover {
+.hero .order:hover,
+.hero .order:focus {
     background-color: #404BBF;
     box-shadow: 0 4px 4px 0 #00000026;
 }

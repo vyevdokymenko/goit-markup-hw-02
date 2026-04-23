@@ -10,10 +10,13 @@
     font-weight: 400;
     font-style: normal;
     color: #434455;
+    letter-spacing: 0.02em;
 }
 
 .nav ul li a:hover,
-.address ul li a:hover {
+.address ul li a:hover,
+.nav ul li a:focus,
+.address ul li a:focus {
     color: #404BBF;
 }
 

@@ -2,9 +2,10 @@ body {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 400;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     line-height: 1.5;
     color: #434455;
+    background-color: #fff;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -16,12 +17,14 @@ h2 {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    letter-spacing: 0.02em;
 }
 
 h3 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.20;
+    letter-spacing: 0.02em;
 }
 
 ul {
@@ -31,6 +34,7 @@ ul {
 a {
     text-decoration: none;
     color: #2E2F42;
+    letter-spacing: 0.02em;
 }
 
 .logo {
@@ -39,7 +43,7 @@ a {
     font-size: 18px;
     line-height: 1.333;
     text-transform: uppercase;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
 }
 
 .logo .logo-accent {
